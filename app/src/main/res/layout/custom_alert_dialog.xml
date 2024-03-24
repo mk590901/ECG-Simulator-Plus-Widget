@@ -1,0 +1,70 @@
+<!-- custom_alert_dialog.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:elevation="@dimen/size_8dp"
+    android:orientation="vertical"
+    android:padding="@dimen/size_16dp">
+
+    <TextView
+        android:id="@+id/dialogTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginBottom="8dp"
+        android:text="Title"
+        android:textStyle="bold"
+        android:textColor="@color/blue_1"
+        android:textSize="@dimen/size_20dp" />
+
+    <TextView
+        android:id="@+id/dialogMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/size_16dp"
+        android:text="Message"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/size_18dp"/>
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:indeterminateTint="@color/grey_light"
+        android:layout_marginBottom="@dimen/size_16dp"
+        android:indeterminate="false"
+        android:progress="0" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:gravity="right"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/cancelButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginEnd="@dimen/size_10dp"
+            android:background="@drawable/button_round_selector"
+            android:textColor="@color/rounded_solid_button_text_color_selector"
+            android:text="@string/cancel"
+            android:textAllCaps="false"
+            />
+
+        <Button
+            android:id="@+id/doneButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_button_selector"
+            android:textColor="@color/rounded_button_text_color_selector"
+            android:text="@string/ok"
+            android:textAllCaps="false"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

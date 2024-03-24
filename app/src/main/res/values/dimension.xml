@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Buttons -->
+
+    <!-- text sizes -->
+
+    <dimen name="button_large_radius">24dp</dimen>
+
+    <dimen name="size_2dp">2dp</dimen>
+    <dimen name="size_4dp">4dp</dimen>
+    <dimen name="size_8dp">8dp</dimen>
+    <dimen name="size_10dp">10dp</dimen>
+    <dimen name="size_16dp">16dp</dimen>
+    <dimen name="size_18dp">18dp</dimen>
+    <dimen name="size_20dp">20dp</dimen>
+    <dimen name="size_24dp">24dp</dimen>
+    <dimen name="size_156dp">156dp</dimen>
+
+    <!-- Side bar items -->
+
+    <!-- Wizard -->
+
+
+</resources>

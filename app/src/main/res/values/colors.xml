@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="blue_dark">#00325D</color>
+    <color name="blue_active">#007AFF</color>
+    <color name="blue_1">#6ac5fe</color>
+    <color name="blue_2">#8fd3fe</color>
+    <color name="blue_3">#b5e2ff</color>
+    <color name="blue_4">#daf0ff</color>
+
+    <color name="white_smoke">#F8F8F8</color>
+    <color name="grey_dark">#b3b6c3</color>
+    <color name="grey_light">#cbd3ee</color>
+
+    <color name="card_color">@color/blue_4</color>
+    <color name="button_text_color">@color/blue_1</color>
+
+    <color name="secondary_color">@color/blue_dark</color>
+
+    <color name="columbia_blue">#87AFC7</color>
+
+
+</resources>
